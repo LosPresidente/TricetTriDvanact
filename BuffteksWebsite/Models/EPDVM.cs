@@ -9,10 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BuffteksWebsite.Models
 {
-     
     public class EPDVM
     {
-
         public Project TheProject {get; set;}
 
         public string SelectedID { get; set; }

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BuffteksWebsite.Models;
+
 /*ja sem velkej borec */
 
 namespace BuffteksWebsite.Controllers
@@ -25,7 +26,7 @@ namespace BuffteksWebsite.Controllers
             return View(await _context.Projects.ToListAsync());
         }
 
-        // GET: Projects/Details/5
+        // GET: Projects/Details/5 (what is the five?)
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)

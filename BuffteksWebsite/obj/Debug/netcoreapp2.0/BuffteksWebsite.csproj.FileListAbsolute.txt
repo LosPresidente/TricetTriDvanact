@@ -53,3 +53,14 @@ C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\
 C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfo.cs
 C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.dll
 C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.pdb
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.deps.json
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.runtimeconfig.json
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.runtimeconfig.dev.json
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.dll
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.pdb
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.csprojResolveAssemblyReference.cache
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.csproj.CoreCompileInputs.cache
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfoInputs.cache
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfo.cs
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.dll
+C:\CIDM3312\czech folder\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.pdb

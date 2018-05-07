@@ -13118,27 +13118,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ian Bilek\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\ib992954\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ian Bilek\\Desktop\\projectaa\\TricetTriDvanact\\BuffteksWebsite\\BuffteksWebsite.csproj",
+      "projectUniqueName": "C:\\CIDM3312\\czech folder\\TricetTriDvanact\\BuffteksWebsite\\BuffteksWebsite.csproj",
       "projectName": "BuffteksWebsite",
-      "projectPath": "C:\\Users\\Ian Bilek\\Desktop\\projectaa\\TricetTriDvanact\\BuffteksWebsite\\BuffteksWebsite.csproj",
-      "packagesPath": "C:\\Users\\Ian Bilek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ian Bilek\\Desktop\\projectaa\\TricetTriDvanact\\BuffteksWebsite\\obj\\",
+      "projectPath": "C:\\CIDM3312\\czech folder\\TricetTriDvanact\\BuffteksWebsite\\BuffteksWebsite.csproj",
+      "packagesPath": "C:\\Users\\ib992954\\.nuget\\packages\\",
+      "outputPath": "C:\\CIDM3312\\czech folder\\TricetTriDvanact\\BuffteksWebsite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ian Bilek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\ib992954\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
