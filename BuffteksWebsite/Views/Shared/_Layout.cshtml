@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BuffteksWebsite</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+      @*  <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"*@
+      <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.1.0/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+    <style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 155px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #800000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>@*
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">BuffteksWebsite</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Members" asp-action="Index">Members</a></li>
+                    <li><a asp-area="" asp-controller="Clients" asp-action="Index">Clients</a></li>
+                    <li><a asp-area="" asp-controller="Projects" asp-action="Index">Projects</a></li>  
+                                                                             
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul></div></div></nav>
+----------------------------------------------------------------------------------------------
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="btn-group btn-group-vertical" role="group">
+				 
+				<button  type="button" class="btn btn-info">
+					<a asp-area="" asp-controller="Home" asp-action="Index"></a>
+                    <a href="http://localhost:5000/" class="btn btn-info" role="button">Index?</a>
+				</button> 
+				<button class="btn btn-info" type="button" href="http://localhost:5000/Members">
+					
+                
+                    <a href="http://localhost:5000/Members" class="btn btn-info" role="button">Members?</a>
+				</button> 
+				<button class="btn btn-info" type="button">
+					<a asp-area="" asp-controller="Clients" asp-action="Index"></a>
+                    <a href="http://localhost:5000/Clients" class="btn btn-info" role="button">Clients?</a>
+				</button> 
+				<button class="btn btn-info" type="button">
+					<a asp-area="" asp-controller="Projects" asp-action="Index"></a>
+                    <a href="http://localhost:5000/Projects" class="btn btn-info" role="button">Projects?</a>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+*@
+<div class="sidenav">
+    
+  <a href="http://localhost:5000/" >Home</a>
+  <a href="http://localhost:5000/Members" >Members</a>
+  <a href="http://localhost:5000/Clients" >Clients</a>
+  <a href="http://localhost:5000/Projects">Projects</a>
+  <img src="~/images/butekslgg.png" width="150" height="100">
+</div>
+
+
+@*--------------------------------------------------------------------------------------------------------------------*@
+    
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2018 - BuffteksWebsite</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+       @* <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"*@
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.1.0/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+
+
+
+</body>
+</html>
