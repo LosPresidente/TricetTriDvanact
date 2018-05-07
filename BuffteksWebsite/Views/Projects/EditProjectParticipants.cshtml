@@ -32,27 +32,28 @@
               *@
         <form asp-controller="Projects" asp-action="EditProjectParticipants" method="post">
             <div class="form-group">
+                <input type="hidden" asp-for="ProjectID" />
                 <label asp-for="SelectedID" class="control-label">Select from Clients</label>
-                @* Project Client List shows the clients, what we want is to show clients 
-                that are not already on the project. *@
+
                 <select asp-for="SelectedID" asp-items="Model.ProjectClientsList"></select> 
                 <span class="text-danger"></span>
             </div>
             <div class="form-group">
-                @* This is the changing button *@
+
                 <input type="submit" value="Select New Client for Project" class="btn btn-default" />
             </div>
         </form>
+
         <form asp-controller="Projects" asp-action="EditProjectParticipants" method="post">
             <div class="form-group">
+                <input type="hidden" asp-for="ProjectID" />
                 <label asp-for="SelectedID" class="control-label">Select from Members</label>
-                @* Project Member List shows the clients, what we want is to show Members 
-                that are not already on the project. *@
+
                 <select asp-for="SelectedID" asp-items="Model.ProjectMembersList"></select> 
                 <span class="text-danger"></span>                
             </div>
             <div class="form-group">
-                @* This is the changing button *@
+
                 <input type="submit" value="Select New Member for Project" class="btn btn-default" />
             </div>
         </form>        
@@ -60,7 +61,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-default" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

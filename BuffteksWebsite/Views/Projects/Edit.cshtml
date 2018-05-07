@@ -35,8 +35,8 @@
 
 <div>
     @*the extra link that leads to editing the projects*@
-    <a asp-action="EditProjectParticipants" asp-route-id="@Model.ID">Edit Project Participants</a> |    
-    <a asp-action="Index">Back to List</a>
+    <a class="btn btn-warning" asp-action="EditProjectParticipants" asp-route-id="@Model.ID">Edit Project Participants</a> |    
+    <a class="btn btn-default" asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
