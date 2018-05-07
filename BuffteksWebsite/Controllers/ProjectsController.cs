@@ -236,7 +236,7 @@ foreach(var member in membersNotOnProject)
                 ProjectMembersList = membersSelectList
             };
             return View(epdvm);
-        }        
+        }
 //gives an error instead of doing nothing, still its an attempt
                 [HttpPost, ActionName("EditProjectParticipants")]
         [ValidateAntiForgeryToken]
@@ -245,7 +245,6 @@ foreach(var member in membersNotOnProject)
             var projectAddedTo = await _context.Projects.SingleOrDefaultAsync(Pro => Pro.ID == EPDVMD.ProjectID);
             //change the Members to Clients to add clients and switch back to add Members
             var participantToAdd = await _context.Members.SingleOrDefaultAsync(Mem => Mem.ID == EPDVMD.SelectedID);
-            //Clients dont work 
            // var clientToAdd = await _context.Clients.SingleOrDefaultAsync(Cli => Cli.ID == EPDVMD.SelectedID);
 
             ProjectRoster dude = new ProjectRoster
