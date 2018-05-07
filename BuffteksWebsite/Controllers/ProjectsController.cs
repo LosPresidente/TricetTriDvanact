@@ -86,7 +86,6 @@ namespace BuffteksWebsite.Controllers
             return View(project);
         }
 
-        // GET: Projects/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -102,9 +101,7 @@ namespace BuffteksWebsite.Controllers
             return View(project);
         }
 
-        // POST: Projects/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("ID,ProjectName,ProjectDescription")] Project project)
@@ -166,7 +163,7 @@ namespace BuffteksWebsite.Controllers
                 on participant.ID equals projectparticipant.ProjectParticipantID
                 where participant.ID != projectparticipant.ProjectParticipantID
                 select participant;
-            */                
+            */              
 
             List<SelectListItem> clientsSelectList = new List<SelectListItem>();
 
@@ -207,6 +204,9 @@ namespace BuffteksWebsite.Controllers
             {
                 membersSelectList.Add(new SelectListItem { Value=member.ID, Text = member.FirstName + " " + member.LastName});
             }
+            /*
+            
+             */
 
             //create and prepare ViewModel
             EditProjectDetailViewModel epdvm = new EditProjectDetailViewModel

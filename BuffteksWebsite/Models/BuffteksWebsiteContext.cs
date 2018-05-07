@@ -22,8 +22,12 @@ namespace BuffteksWebsite.Models
             modelBuilder.Entity<Project>().ToTable("Project");
 
 
-            //Many to Many relationships
-            //https://www.learnentityframeworkcore.com/configuration/many-to-many-relationship-configuration
+/*
+This one helps the database make its connections 
+LINQ
+project     project roster      project participants
+0               -< 0 >-                 0
+ */
 
             //establish the join through the keys
             modelBuilder.Entity<ProjectRoster>()
