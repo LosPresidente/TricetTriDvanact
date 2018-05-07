@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BuffteksWebsite.Models
 {
+    //tady se usidlily data
     public class ProjectRoster
     {
         public string ProjectParticipantID { get; set; }

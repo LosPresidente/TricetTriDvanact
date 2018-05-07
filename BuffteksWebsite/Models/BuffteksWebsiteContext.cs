@@ -40,6 +40,7 @@ project     project roster      project participants
                 .HasForeignKey(pr => pr.ProjectID);
 
             //set up the one to many map from ProjectParticipant to ProjectRoster
+            //by "map" he means the path one-to-many and one-to-many
             modelBuilder.Entity<ProjectRoster>()
                 .HasOne(pr => pr.ProjectParticipant)
                 .WithMany(pp => pp.Projects)
