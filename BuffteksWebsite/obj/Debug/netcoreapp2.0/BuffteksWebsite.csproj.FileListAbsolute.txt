@@ -42,3 +42,14 @@ C:\Users\Ian Bilek\Desktop\3312 ABA\CIDM3312-Spring2018-InClass-master\3312Final
 C:\Users\Ian Bilek\Desktop\3312 ABA\CIDM3312-Spring2018-InClass-master\3312Final\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfo.cs
 C:\Users\Ian Bilek\Desktop\3312 ABA\CIDM3312-Spring2018-InClass-master\3312Final\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.dll
 C:\Users\Ian Bilek\Desktop\3312 ABA\CIDM3312-Spring2018-InClass-master\3312Final\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.pdb
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.deps.json
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.runtimeconfig.json
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.runtimeconfig.dev.json
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.dll
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\bin\Debug\netcoreapp2.0\BuffteksWebsite.pdb
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.csprojResolveAssemblyReference.cache
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfoInputs.cache
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.AssemblyInfo.cs
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.dll
+C:\Users\Ian Bilek\Desktop\projectaa\TricetTriDvanact\BuffteksWebsite\obj\Debug\netcoreapp2.0\BuffteksWebsite.pdb

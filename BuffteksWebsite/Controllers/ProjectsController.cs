@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BuffteksWebsite.Models;
+/*ja sem velkej borec */
 
 namespace BuffteksWebsite.Controllers
 {
@@ -71,9 +72,7 @@ namespace BuffteksWebsite.Controllers
             return View();
         }
 
-        // POST: Projects/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ID,ProjectName,ProjectDescription")] Project project)
