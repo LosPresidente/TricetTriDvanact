@@ -208,7 +208,9 @@ namespace BuffteksWebsite.Controllers
             
              */
 
-            //create and prepare ViewModel
+            //this is the key
+            //mozna kdyz to udelam manualne tak to muzu udelat i tady
+            //tri vars jenom copirujou uqiuemembers etc.
             EditProjectDetailViewModel epdvm = new EditProjectDetailViewModel
             {
                 TheProject = project,
